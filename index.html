@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#24133d">
+  <title>For Christy 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sky">
+    <div class="moon"></div>
+    <div class="stars" id="stars"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+  </div>
+
+  <!-- Add your audio file at music/best-part.mp3 -->
+  <audio id="bgMusic" src="music/Daniel Caesar - Best Part (Audio) ft. H.E.R..mp3" loop></audio>
+
+  <main>
+
+    <!-- OPENING SCREEN -->
+    <section class="screen active" id="welcomeScreen">
+      <div class="eyebrow">A little message from the heart</div>
+
+      <div class="portal-wrap">
+        <button class="heart-portal" id="openBtn"
+          aria-label="Open the letter">
+          <span class="heart">♥</span>
+          <span class="portal-ring ring-one"></span>
+          <span class="portal-ring ring-two"></span>
+        </button>
+      </div>
+
+      <h1>For you, <span>Christy</span> 💜</h1>
+
+      <p class="intro">
+        Some words are easier to write when they come
+        straight from the heart.
+      </p>
+
+      <button class="primary-btn" id="beginBtn">
+        Open my letter <span>♡</span>
+      </button>
+
+      <p class="tiny-note">
+        Take your time. This is just for you.
+      </p>
+    </section>
+
+
+    <!-- APOLOGY LETTER SCREEN -->
+    <section class="screen letter-screen" id="letterScreen">
+
+      <div class="letter-topline">
+        A letter for my favorite person
+      </div>
+
+      <div class="letter-card">
+
+        <div class="letter-decoration">✦　♡　✦</div>
+
+        <h2>Dear Christy,</h2>
+
+        <div class="letter-copy">
+
+          <p>
+            Baby, even though we sometimes fight and have misunderstandings,
+            I hope u never think that I will leave u because of ur attitude
+            or because of the things that make us argue. I want u to know
+            that no matter how difficult things become between us, I will
+            always choose to love u and stay by ur side. I will love u
+            until the very end, and I promise that I will never give up on
+            us just because things get hard. That is my promise to u, to
+            our relationship, and to the Lord, who knows how sincere my
+            love for u is.
+          </p>
+
+          <p>
+            I have promised myself that this relationship is something I
+            want to keep for a lifetime, baby. I don't want us to be just
+            another love story that ends when problems come. I want us to
+            grow together, learn from our mistakes, and become better
+            people for each other.
+          </p>
+
+          <p>
+            I'm really sorry if there are times when I keep making u angry,
+            when I'm too playful, too stubborn, or sometimes too difficult
+            to understand. I'm sorry for the moments when my actions or
+            words make u feel upset, even when hurting u is never my
+            intention. I know that I still have many things to improve
+            about myself, and I want u to know that I'm willing to learn
+            because u and our relationship mean so much to me.
+          </p>
+
+          <p>
+            Baby, let's always remember the words we keep telling each
+            other whenever things aren't okay between us "we fight, we
+            talk, we fix" Let's never forget that, because arguments
+            should never be the reason we stop choosing each other.
+            Instead of letting our misunderstandings destroy what we have,
+            let's use them as lessons to understand each other better.
+            Let's always communicate, listen to each other's feelings,
+            and remember that we're on the same team, even when we disagree.
+          </p>
+
+          <p>
+            I know we won't always have perfect days, and there will be
+            times when we struggle to understand each other, but I hope we
+            never forget the love that brought us together. I want to
+            celebrate more monthsaries with u, make beautiful memories
+            with u, and reach all the dreams we've been talking about
+            together. I pray to the Lord that He continues to guide our
+            relationship and gives us the patience, strength, and
+            understanding we need to overcome every challenge.
+          </p>
+
+          <p>
+            Christy, u are so precious to me, and I hope my actions will
+            always show u how much I love u. No matter how many times we
+            disagree, my heart will always choose to work things out with
+            u. I love u so, so much, Christy, more than words can ever
+            explain!
+          </p>
+
+        </div>
+
+        <div class="signature">
+          With all my love,
+          <span>always yours 💜</span>
+        </div>
+
+      </div>
+
+      <button class="primary-btn continue-btn" id="promiseBtn">
+        One thing I hope we remember <span>♡</span>
+      </button>
+
+    </section>
+
+
+    <!-- FINAL SCREEN -->
+    <section class="screen promise-screen" id="promiseScreen">
+
+      <div class="promise-orbit">♡</div>
+
+      <p class="eyebrow">Even on the hard days</p>
+
+      <h2 class="promise-line">
+        We fight.<br>
+        <span>We talk.</span><br>
+        We fix. 💜
+      </h2>
+
+      <p class="promise-copy">
+        Not because we'll always get everything right, but because
+        we can keep listening, learning, and choosing to understand
+        each other.
+      </p>
+
+      <div class="ending-note">
+        I'm sorry, Christy. I love you. <span>♡</span>
+      </div>
+
+      <button class="text-btn" id="againBtn">
+        Read my letter again ↺
+      </button>
+
+    </section>
+
+  </main>
+
+  <div class="toast" id="musicToast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
